@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSIXWechatOL", "VSIXWechatO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartXCore", "..\SmartXCore\SmartXCore.csproj", "{DF013FBA-A2E7-4CC4-B2FB-1ED5F3DB88DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeChatOL", "..\WeChatOL\WeChatOL.csproj", "{A0753554-45BB-4CE2-B307-ED4AEE8543A0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{DF013FBA-A2E7-4CC4-B2FB-1ED5F3DB88DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF013FBA-A2E7-4CC4-B2FB-1ED5F3DB88DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF013FBA-A2E7-4CC4-B2FB-1ED5F3DB88DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A0753554-45BB-4CE2-B307-ED4AEE8543A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0753554-45BB-4CE2-B307-ED4AEE8543A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0753554-45BB-4CE2-B307-ED4AEE8543A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0753554-45BB-4CE2-B307-ED4AEE8543A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
