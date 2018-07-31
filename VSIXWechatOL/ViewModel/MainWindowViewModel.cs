@@ -538,6 +538,7 @@ namespace VSIXWechatOL.ViewModel
                             ClearSendMessage();
                             text = "我:" + text;
                             AddChatMessage(text);
+                            LocalStore.Store.Set(CurrentUserName, text);
                         }
                     }
 

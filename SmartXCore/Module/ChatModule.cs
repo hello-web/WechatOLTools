@@ -25,17 +25,23 @@ namespace SmartXCore.Module
                 _session.BaseRequest,
                 Msg = msg
             };
-            var response = _httpClient.PostJsonAsync(url, obj.ToJson()).Result;
-            var json = response.RawText().ToJToken();
-            if (json["BaseResponse"]["Ret"].ToString() == "0")
+            try
             {
-                return true;
+                var response = _httpClient.PostJsonAsync(url, obj.ToJson()).Result;
+                var json = response.RawText().ToJToken();
+                if (json["BaseResponse"]["Ret"].ToString() == "0")
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
-            else
+            catch
             {
                 return false;
             }
-            
         }
     }
 }
