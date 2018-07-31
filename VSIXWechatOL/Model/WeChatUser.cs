@@ -1,10 +1,5 @@
-﻿using SmartX.Extensions;
-using System;
-using System.Collections.Generic;
+﻿using SmartXCore.Extensions;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace VSIXWechatOL.Model
 {
